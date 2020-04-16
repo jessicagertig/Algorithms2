@@ -17,7 +17,7 @@ import math
 #using keys, values, if key in 2 matches key in 1, then divide value of 2 by value of 1, using //, append integer result to array called possible totals
 #return min of possible totals
 #be wary of values becoming floats or strings, may have to use int() to make sure values stay integers
-#what if the two dictionaries were of same length but ingredients differed?  could I check the length of possible totals against the length of recipes to see if zero needed to be returned? This test case is not in the tests, but is a possible scenario
+#what if the two dictionaries were of same length but ingredients differed?  could I check the keys to see if each had a match?  This test case is not in the tests.
 
 def recipe_batches(recipe, ingredients):
   possible_batches = []
