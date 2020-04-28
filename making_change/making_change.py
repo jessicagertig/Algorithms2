@@ -2,6 +2,7 @@
 
 import sys
 
+cache = [1, 1]
 def making_change(amount, denominations):
   pass 
 
